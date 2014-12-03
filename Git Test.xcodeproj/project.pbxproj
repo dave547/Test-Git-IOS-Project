@@ -15,6 +15,7 @@
 		87D393EF1A2F89CF00A84BAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87D393EE1A2F89CF00A84BAD /* Images.xcassets */; };
 		87D393F21A2F89CF00A84BAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D393F01A2F89CF00A84BAD /* LaunchScreen.xib */; };
 		87D393FE1A2F89CF00A84BAD /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D393FD1A2F89CF00A84BAD /* Git_TestTests.m */; };
+		87D394091A2F8CC100A84BAD /* DTTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D394081A2F8CC100A84BAD /* DTTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		87D393F71A2F89CF00A84BAD /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D393FC1A2F89CF00A84BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87D393FD1A2F89CF00A84BAD /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		87D394071A2F8CC100A84BAD /* DTTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTest.h; sourceTree = "<group>"; };
+		87D394081A2F8CC100A84BAD /* DTTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 		87D393D21A2F89CF00A84BAD = {
 			isa = PBXGroup;
 			children = (
+				87D394071A2F8CC100A84BAD /* DTTest.h */,
+				87D394081A2F8CC100A84BAD /* DTTest.m */,
 				87D393DD1A2F89CF00A84BAD /* Git Test */,
 				87D393FA1A2F89CF00A84BAD /* Git TestTests */,
 				87D393DC1A2F89CF00A84BAD /* Products */,
@@ -226,6 +231,7 @@
 				87D393E11A2F89CF00A84BAD /* main.m in Sources */,
 				87D393EA1A2F89CF00A84BAD /* ViewController.m in Sources */,
 				87D393E71A2F89CF00A84BAD /* Git_Test.xcdatamodeld in Sources */,
+				87D394091A2F8CC100A84BAD /* DTTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
